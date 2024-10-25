@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        dialog{
+            width: 100%;
+          
+            height: 100vh;
+           
+           
+            position: fixed;
+            margin: auto;
+            top: 0%;
+            padding: 100px;
+            left: 0%;
+            border: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #000000b1;
+
+        }
+        .card{
+            width: 300px;
+            min-height: 250px;
+            padding: 30px;
+            margin: auto;
+            border-radius: 10px;
+            border: #8b0916 solid 2px;
+            box-shadow: 0 0 20px #4e7861;
+            height: auto;
+            background-color: azure;
+            text-align: center;
+        }
+        .card img{
+            width: 80px;
+            height: 80px;
+            display: block;
+            transform: translateY(-65px);
+            margin: auto;
+        }
+        button{
+            border: none;
+        }
+        .contact-btn{
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            color: #0c0c0c;
+            background-color: #0e5135;
+        }
+        .close-btn{
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            color: #f4eeee;
+            background-color: #8b0916;
+        }
+        .card p{
+            color: #8b0916;
+        }
+        .show-btn{
+            margin: 20px;
+            
+            padding: 10px;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <center><button onclick="showDialog()" class="show-btn">Show Document</button></center>
+    <dialog id="popup">
+        <div class="container">
+            <div class="card">
+                <img src="https://icons.iconarchive.com/icons/iconarchive/teddy-gang/512/Teddy-Bear-Happy-icon.png" alt="">
+                <h1>Teddy Bear</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, earum. Facilis, maiores?</p>
+                <button class="contact-btn">Contact</button>
+                <button class="close-btn" onclick="closepopup()">Close</button>
+            </div>
+        </div>
+    </dialog>
+
+
+
+
+    
+  <center> <h1 style="color: rgb(246, 242, 242); padding: 10px; width: 80%; background-color: #0c0c0c; margin: 20px; filter:drop-shadow(0 0 5px red); border-radius: 200% 200% 150% 150%;"> Teddy Bear</h1></center>
+
+   <svg style="border: 2px solid #0c0c0c; width:800px; height:750px; background-color:  #32331e; margin:auto; display:block; " >
+
+    <circle r="200" cx="400" cy="500" fill="#6a1b0c" stroke-width="4" stroke="black"/>
+    <circle r="150" cx="400" cy="500" fill="#2F210D" stroke-width="4" stroke="#f015"/>
+    <circle r="100" cx="400" cy="500" fill="#2B1B05" stroke-width="4" stroke="#f015"/>
+
+    <!-- <circle r="10" cx="400" cy="650" fill="#adc6b" stroke-width="1" stroke="#000"/> -->
+
+    <circle r="90" cx="250" cy="650" fill="#6a1b0c" stroke-width="4" stroke="black"/>
+   <circle r="40" cx="270" cy="670" fill="#000" stroke-width="2" stroke="black"/>
+
+
+    <circle r="90" cx="550" cy="650" fill="#6a1b0c" stroke-width="4" stroke="black"/>
+    <circle r="40" cx="530" cy="670" fill="#000" stroke-width="2" stroke="black"/>
+    
+    <circle r="25" cx="535" cy="550" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="535" cy="550" fill="#000" stroke-width="2" stroke="black"/>
+
+
+    <circle r="23" cx="580" cy="560" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="580" cy="560" fill="#000" stroke-width="2" stroke="black"/>
+
+    <circle r="21" cx="620" cy="580" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="620" cy="580" fill="#000" stroke-width="2" stroke="black"/>
+
+    <circle r="19" cx="645" cy="610" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="645" cy="610" fill="#000" stroke-width="2" stroke="black"/>
+
+
+    <!-- <circle r="90" cx="550" cy="650" fill="#6a1b0c" stroke-width="4" stroke="black"/>
+    <circle r="40" cx="530" cy="670" fill="#000" stroke-width="2" stroke="black"/> -->
+    
+    <circle r="25" cx="250" cy="550" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="250" cy="550" fill="#000" stroke-width="2" stroke="black"/>
+
+
+    <circle r="23" cx="205" cy="560" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="205" cy="560" fill="#000" stroke-width="2" stroke="black"/>
+
+    <circle r="21" cx="170" cy="580" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="170" cy="580" fill="#000" stroke-width="2" stroke="black"/>
+
+    <circle r="19" cx="150" cy="610" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="10" cx="150" cy="610" fill="#000" stroke-width="2" stroke="black"/>
+
+    <!-- raith hand -->
+    <circle r="50" cx="530" cy="380" fill="#6a1b0c" stroke-width="4" stroke="black"/>
+    <circle r="40" cx="530" cy="385" fill="#000" stroke-width="2" stroke="black"/>
+    
+    <circle r="15" cx="535" cy="320" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="6" cx="535" cy="320" fill="#000" stroke-width="2" stroke="black"/>
+
+
+    <circle r="15" cx="560" cy="325" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="6" cx="560" cy="325" fill="#000" stroke-width="2" stroke="black"/>
+
+    <circle r="15" cx="580" cy="345" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="6" cx="580" cy="345" fill="#000" stroke-width="2" stroke="black"/>
+
+    <circle r="12" cx="590" cy="370" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+    <circle r="5" cx="590" cy="370" fill="#000" stroke-width="2" stroke="black"/>
+
+   <!-- leifth hand -->
+   <circle r="50" cx="275" cy="375" fill="#6a1b0c" stroke-width="4" stroke="black"/>
+   <circle r="40" cx="275" cy="375" fill="#000" stroke-width="2" stroke="black"/>
+   
+   <circle r="15" cx="265" cy="320" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+   <circle r="6" cx="265" cy="320" fill="#000" stroke-width="2" stroke="black"/>
+
+
+   <circle r="15" cx="240" cy="325" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+   <circle r="6" cx="240" cy="325" fill="#000" stroke-width="2" stroke="black"/>
+
+   <circle r="15" cx="220" cy="345" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+   <circle r="6" cx="220" cy="345" fill="#000" stroke-width="2" stroke="black"/>
+
+   <circle r="12" cx="215" cy="370" fill="#6a1b0c" stroke-width="2" stroke="black"/>
+   <circle r="5" cx="215" cy="370" fill="#000" stroke-width="2" stroke="black"/>
+
+      <!-- eayar --> 
+
+    <circle r="60" cx="295" cy="110" fill="#6a1b0c" stroke-width="10" stroke="black"/>
+    <circle r="60" cx="505" cy="110" fill="#6a1b0c" stroke-width="10" stroke="black"/>
+
+    <circle r="45" cx="295" cy="110" fill="#000" stroke-width="2" stroke="black"/>
+    <circle r="45" cx="505" cy="110" fill="#000" stroke-width="2" stroke="black"/>
+
+  <!-- face -->
+    <circle r="150" cx="400" cy="250" fill="#6a1b0c" skroke-width="7" stroke="#0C0B0A"/>
+    <circle r="140" cx="400" cy="250" fill="#6a1b0c" skroke-width="7" stroke="black"/>
+
+    <circle r="30" cx="350" cy="220" fill="#fff" skroke-width="7" stroke="black"/>
+    <circle r="20" cx="350" cy="230" fill="#000" skroke-width="7" stroke="black"/>
+
+    <circle r="30" cx="450" cy="220" fill="#fff" skroke-width="7" stroke="black"/>
+    <circle r="20" cx="450" cy="230" fill="#000" skroke-width="7" stroke="black"/>
+
+   
+
+    <circle r="50" cx="400" cy="320" fill="#000" skroke-width="" stroke="black"/>
+    <circle r="50" cx="400" cy="310" fill="#6a1b0c" skroke-width="" stroke="bk"/>
+
+    <circle r="40" cx="375" cy="300" fill="#222312" skroke-width="7" stroke="black"/>
+    <circle r="40" cx="425" cy="300" fill="#222312" skroke-width="7" stroke="black"/>
+
+    <circle r="40" cx="370" cy="290" fill="#6a1b0c" skroke-width="0" stroke="#0A"/>
+    <circle r="40" cx="430" cy="290" fill="#6a1b0c" skroke-width="7" stroke="#0A"/>
+   
+    <circle r="40" cx="400" cy="305" fill="#000" skroke-width="7" stroke="black"/>
+
+
+    
+    <circle r="30" cx="295" cy="110" fill="#" stroke-width="2" stroke="black"/>
+    <circle r="30" cx="505" cy="110" fill="#" stroke-width="2" stroke="black"/>
+
+    <circle r="25" cx="298" cy="115" fill="#B7A251" stroke-width="2" stroke="black"/>
+    <circle r="25" cx="503" cy="115" fill="#B7A251" stroke-width="2" stroke="black"/>
+    
+    <circle r="50" cx="60" cy="60" fill="#fff" />
+    <circle r="50" cx="80" cy="40" fill="#32331e"/>
+
+
+    <circle r="10" cx="80" cy="50" fill="#FC4100" stroke="#EEDF7A" skroke-width="10"/>
+    <circle r="5" cx="80" cy="50" fill="#C62E2E" stroke="#800000" skroke-width="10"/>
+
+    <circle r="3" cx="90" cy="70" fill="#FFBF00"/>
+    <circle r="3" cx="70" cy="60" fill="#FFBF00"/>
+    <!-- <circle r="2" cx="20" cy="59" fill="#FFBF00"/>
+    <circle r="3" cx="60" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="150" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="100" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="80" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="250" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="450" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="200" cy="150" fill="#FFBF00"/>
+    <circle r="3" cx="600" cy="300" fill="#FFBF00"/>
+    <circle r="3" cx="700" cy="250" fill="#FFBF00"/>
+    <circle r="3" cx="750" cy="200" fill="#FFBF00"/>
+    <circle r="3" cx="150" cy="250" fill="#FFBF00"/>
+    <circle r="3" cx="200" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="400" cy="15" fill="#FFBF00"/>
+    <circle r="3" cx="500" cy="30" fill="#FFBF00"/>
+    <circle r="3" cx="300" cy="20" fill="#FFBF00"/>
+    <circle r="3" cx="150" cy="50" fill="#FFBF00"/>
+    <circle r="3" cx="170" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="600" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="700" cy="68" fill="#FFBF00"/>
+    <circle r="3" cx="750" cy="68" fill="#FFBF00"/> -->
+
+   </svg>4
+
+   <script>
+    const dialogTag = document.getElementById('popup');
+    function showDialog(){
+        dialogTag.show()
+    }
+    function closepopup(){
+        dialogTag.close()
+    }
+
+   </script>
+</body>
+</html>
+
